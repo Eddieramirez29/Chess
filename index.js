@@ -1,18 +1,11 @@
 const tablero = document.getElementById('tablero');
 
-// Generar las 64 casillas del tablero
+function createBoard()
+{
+    //Generar las 64 casillas del tablero
 for (let i = 0; i < 64; i++) {
     const casilla = document.createElement('div');
     casilla.classList.add('casilla');
-    // Determinar si la casilla es par o impar para aplicar el color correspondiente
-    // if (i % 2 === 0)
-    // {
-    //     casilla.classList.add('par');
-    // } 
-    // else 
-    // {
-    //     casilla.classList.add('impar');
-    // }
 
     if ( (i % 2 === 0 && i < 8) || (i % 2 === 1 && i < 8) ) 
     {
@@ -107,3 +100,7 @@ for (let i = 0; i < 64; i++) {
 
     tablero.appendChild(casilla);
 }
+
+}
+
+createBoard();
