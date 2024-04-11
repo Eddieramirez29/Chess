@@ -9,7 +9,7 @@ function agregarPeon() {
      // Crear un elemento de imagen
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
-     imagen.src = './piezas/chess_743907.png';
+     imagen.src = './piezas/pawn.png';
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -143,6 +143,57 @@ function agregarPeon() {
  
   }
 
+  function agregarReina() {
+    let contenedor = document.getElementById('tablero');
+    let left = 635;
+
+  
+
+    
+     // Crear un elemento de imagen
+     let imagen = document.createElement('img');
+     // Establecer la URL de la imagen
+     imagen.src = './piezas/queen.png';
+      // Opcional: establecer atributos adicionales como el ancho y el alto
+    imagen.width = 50;
+    imagen.height = 50;
+     // Establecer estilos de posicionamiento
+    imagen.style.position = 'absolute';
+    imagen.style.top = '450px'; // Posición vertical
+    imagen.style.left = left.toString() + "px"; 
+
+
+   
+    // Adjuntar la imagen al contenedor en el DOM
+    
+    contenedor.appendChild(imagen);
+  }
+
+  function agregarRey() {
+    let contenedor = document.getElementById('tablero');
+    let left = 685;
+    
+     // Crear un elemento de imagen
+     let imagen = document.createElement('img');
+     // Establecer la URL de la imagen
+     imagen.src = './piezas/king.png';
+      // Opcional: establecer atributos adicionales como el ancho y el alto
+    imagen.width = 50;
+    imagen.height = 50;
+     // Establecer estilos de posicionamiento
+    imagen.style.position = 'absolute';
+    imagen.style.top = '450px'; // Posición vertical
+    imagen.style.left = left.toString() + "px"; 
+
+
+   
+    // Adjuntar la imagen al contenedor en el DOM
+    
+    contenedor.appendChild(imagen);
+  }
+
+  agregarRey();
+  agregarReina();
   agregarAlfil();
   agregarCaballo();
   agregarPeon();
