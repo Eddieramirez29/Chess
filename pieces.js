@@ -10,6 +10,8 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/pawn.png';
+     // Establecer la clase draggable
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -39,6 +41,7 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/chess.png';
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -68,6 +71,7 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/hourse.png';
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -97,6 +101,7 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/chess.png';
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -126,6 +131,7 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/bishop.png';
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -154,6 +160,7 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/queen.png';
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
@@ -177,6 +184,7 @@ function agregarPeon() {
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
      imagen.src = './piezas/king.png';
+     imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
     imagen.width = 50;
     imagen.height = 50;
