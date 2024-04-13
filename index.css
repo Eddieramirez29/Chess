@@ -7,7 +7,27 @@ body {
     background-color: rgb(31, 31, 31);
 }
 
-/* Frame around the board */
+#coordenadas-X
+{
+    position: absolute;
+    color:black;
+}
+
+#coordenadas-Y
+{
+    position: absolute;
+    top:200px;
+    color:black;
+}
+
+/* Frame around the board 
+Boundaries 
+Y:475px  down
+Y:75px top
+X:445px left
+X:870 right
+
+*/
 #frame
 {
     display: flex;
