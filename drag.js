@@ -33,11 +33,11 @@ document.addEventListener('mousedown', function(e) {
            
 
 
-            // let X = document.getElementById("coordenadas-X");
-            // let Y = document.getElementById("coordenadas-Y");
+             let X = document.getElementById("coordenadas-X");
+             let Y = document.getElementById("coordenadas-Y");
 
-            // X.textContent  = posX;
-            // Y.textContent  = posY;
+             X.textContent  = posX;
+             Y.textContent  = posY;
             
         }
 
