@@ -18,14 +18,14 @@ document.addEventListener('mousedown', function(e) {
                 posY = 475;
             }
 
-            else if(posX <= 445)
+            if (posX <= 445) 
             {
                 posX = 445;
-            }
-            else if(posX >= 870)
+            } else if (posX >= 870)
             {
                 posX = 870;
             }
+            
 
             imagen.style.left = posX + 'px';
             imagen.style.top = posY + 'px';
