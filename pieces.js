@@ -9,7 +9,7 @@ function agregarPeon() {
      // Crear un elemento de imagen
      let imagen = document.createElement('img');
      // Establecer la URL de la imagen
-     imagen.src = './piezas/pawn.png';
+     imagen.src = "./piezas/pawn.png";
      // Establecer la clase draggable
      imagen.classList.add('draggable');
       // Opcional: establecer atributos adicionales como el ancho y el alto
